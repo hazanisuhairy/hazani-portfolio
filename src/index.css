@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap');
+@import 'tailwindcss';
+
+:root {
+  --bg-main: #fffef5;
+  --bg-soft: #fff3d5;
+  --text-main: #101010;
+  --text-muted: #333333;
+  --ink: #101010;
+  --cyan: #56e5ff;
+  --yellow: #ffe76a;
+  --pink: #ff7bc0;
+  --mint: #8cff8a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Manrope', sans-serif;
+  color: var(--text-main);
+  background:
+    linear-gradient(145deg, rgba(255, 231, 106, 0.26) 8%, transparent 8%),
+    linear-gradient(215deg, rgba(86, 229, 255, 0.24) 18%, transparent 18%),
+    linear-gradient(180deg, var(--bg-main) 0%, var(--bg-soft) 100%);
+  background-size: 38px 38px, 52px 52px, auto;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Space Grotesk', sans-serif;
+  letter-spacing: -0.02em;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.glass-card {
+  background: #ffffff;
+  border: 3px solid var(--ink);
+  border-radius: 18px;
+  box-shadow: 8px 8px 0 var(--ink);
+}
+
+.text-muted {
+  color: var(--text-muted);
+}
+
+.neo-card {
+  background: #ffffff;
+  border: 3px solid var(--ink);
+  border-radius: 18px;
+  box-shadow: 8px 8px 0 var(--ink);
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.neo-card:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 12px 12px 0 var(--ink);
+}
+
+.neo-button {
+  border: 3px solid var(--ink);
+  border-radius: 12px;
+  box-shadow: 4px 4px 0 var(--ink);
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.neo-button:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0 var(--ink);
+}
+
+.neo-input {
+  border: 3px solid var(--ink);
+  border-radius: 12px;
+  background: #ffffff;
+}
+
+.neo-input:focus {
+  outline: none;
+  box-shadow: 4px 4px 0 var(--ink);
+}
