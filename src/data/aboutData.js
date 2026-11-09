@@ -1,12 +1,9 @@
-// src/data/aboutData.js
-// All About section content centralized here for easy editing and localization.
 
 const aboutData = {
-    heading: "About",
-    subheading: "Who I am",
-    description: 'My name is Hazani Binti Suhairy Bahar. I am currently a final year student at Universiti Putra Malaysia, majoring in Computer Science. I am the youngest among my siblings. I became passionate about computer science during matriculation, which is why I chose to pursue this field. However, after starting my degree, I lost some of that passion and wasn\'t sure why. But after beginning my internship, I started to regain my passion and interest in computer science.',
-    description2: 'Currently, I am a software developer intern at Conny Tech Sdn Bhd, where I mostly do testing and debugging for the frontend mobile. I am also started to explore the front end and backend of web development for my own learning and development.',
-    description3: 'I am willing to learn anything because I do think that life is all about learning. I am also open to any opportunities that can help me grow and develop my skills in the field of computer science.'
+  "heading": "About",
+  "description": "Hi, I’m Hazani. I’m a Computer Science graduate from Universiti Putra Malaysia, and I enjoy bringing ideas to life through mobile apps and the web.",
+  "description2": "I currently work as a Junior Full Stack Software Developer at Conny Tech. My work spans building features, tracking down bugs, and testing how things behave on Android and iOS.",
+  "description3": "I’m still learning, experimenting, and finding what I love most about development. This space is where I share what I’ve built and what I’m learning along the way."
 }
 
-export default aboutData;
+export default aboutData

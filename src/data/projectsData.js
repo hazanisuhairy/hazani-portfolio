@@ -1,35 +1,25 @@
-// src/data/projectsData.js
-// All project card content centralized here for easy editing and localization.
 
 const projectsData = [
   {
-    title: 'Malaysian Sign Language Recognition System',
-    description: 'An ML-powered recognition system that translates Malaysian sign language gestures for better communication accessibility.',
-    tags: ['Python', 'Machine Learning', 'Computer Vision'],
-    github: 'https://github.com',
-    demo: '#',
-  },
-  {
-    title: 'HandyMany Service Platform',
-    description: 'A service marketplace platform that matches users with trusted providers through a streamlined modern interface.',
-    tags: ['React', 'Node.js', 'MongoDB'],
-    github: 'https://github.com',
-    demo: '#',
-  },
-  {
-    title: 'Student Performance Prediction',
-    description: 'A predictive analytics project to estimate student outcomes and support data-driven academic interventions.',
-    tags: ['Python', 'Pandas', 'Scikit-learn'],
-    github: 'https://github.com',
-    demo: '#',
-  },
-  {
-    title: 'Dashboard UI Projects',
-    description: 'A collection of responsive dashboard interfaces designed for monitoring, reporting, and operational workflows.',
-    tags: ['React', 'Tailwind CSS', 'UI/UX'],
-    github: 'https://github.com',
-    demo: '#',
-  },
+    "title": "Malaysian Sign Language Translation",
+    "videoUrl": "https://youtu.be/HB8t1ASm7QA?si=YvLMHrISaERBAh-k",
+    "image": "/images/signary-app.jpg",
+    "poster": "/images/fyp-poster.png",
+    "subtitle": "Gesture-to-Text Mobile System",
+    "description": "An iOS application that translates Malaysian Sign Language hand gestures into text in real time through the device camera.",
+    "details": [
+      "Collected and prepared a custom hand-gesture dataset and trained a hand-pose classification model using Create ML.",
+      "Integrated the trained Core ML model for real-time gesture recognition.",
+      "Built the mobile interface and live prediction workflow using Swift, Vision, and iOS development frameworks."
+    ],
+    "tags": [
+      "Swift",
+      "Vision",
+      "Core ML",
+      "Create ML",
+      "iOS"
+    ]
+  }
 ]
 
-export default projectsData;
+export default projectsData

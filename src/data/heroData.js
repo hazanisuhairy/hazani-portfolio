@@ -2,7 +2,7 @@
 // All hero section content is centralized here for easy editing and localization.
 
 const heroData = {
-  subtitle: "Computer Science Student & Software Developer Intern",
+  subtitle: "Computer Science Graduate & Junior Full Stack Software Developer",
   headline: "Hello everyone. Welcome to my corner of the internet ",
   tagline: `
   Passionate about developing front end and designing elegant UI systems that feel fast, intuitive, and future-ready.`,
